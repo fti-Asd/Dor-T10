@@ -33,7 +33,7 @@ width: 100%;
 }
 
 h1 {
-    font-size: min(max(1rem, calc(0.2rem + 1.1vw)), 1.5rem);
+    font-size: min(max(1.7rem, calc(1rem + 2vw)), 2rem);
 }
 
 h2 {
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    font-size: min(max(0.9rem, calc(0.2rem + 1.1vw)), 1.5rem);
+    font-size: min(max(0.9rem, calc(0.2rem + 2vw)), 1.6rem);
 }
 
 h5 {
@@ -185,6 +185,14 @@ ul li{
 }
 
 @media (max-width: 992px) {
+    .landing-container{
+        background-image: url("../../public/images/bg-tablet-pattern.svg"), url("../../public/images/bg-tablet-pattern.svg");
+        background-repeat: no-repeat,no-repeat;
+        background-position: 204% -15%, 148% 26%;
+        background-size:85%,50%;
+        min-width: 250px;
+    }
+
     .list-number{
         gap: 15px;
         background-color: hsl(13, 100%, 96%);
